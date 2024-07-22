@@ -1,0 +1,87 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #ededed;
+    
+}
+
+header {
+    display: flex;
+    height: 67px;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c6c6;
+    background-color: #ffffff;
+}
+
+.content-area {
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.oldgram-logo{
+    margin-left: 10px;
+    height: 60px;
+    margin-bottom: 17px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    margin-right: 16px;
+    margin-top: 16px;
+
+}
+
+.post-image {
+    height: 375px;
+    width: 375px;
+
+}
+
+.avatar-photo {
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.user-info-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    font-size: 13px;
+    
+}
+
+.button-area {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-image {
+    height: 30px;
+}
+
+.bottom-area {
+    font-size: 14px;
+    margin: 21px 19px 16px 10px;
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.button-image:hover, user-info-name:hover{
+    opacity: 0.5;
+}
+
